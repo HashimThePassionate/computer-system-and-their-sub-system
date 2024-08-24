@@ -125,6 +125,45 @@ This approach allows you to visualize how each part of the system will function,
 - **Trigger Alarm Sound**: Activates the alarm sound if the current time matches an alarm time.
 😊
 
+### 🛠️ Understanding Flowcharts
+
+**Flowcharts** are a visual tool used to represent the steps required to complete a task, along with the order in which these steps are performed. Each step in a flowchart is represented by a specific symbol, and the flow of the process is indicated by arrows connecting these symbols. Flowcharts are particularly useful for communicating how an algorithm, which is a sequence of steps or instructions, works within a system or sub-system.
+
+<p align="center">
+  <img src="./images/flowchart-alarm.PNG" alt="Basic Flowchart">
+</p>
+
+#### 🔍 Breakdown of the Alarm Flowchart
+
+The provided flowchart illustrates the algorithm for a basic alarm system. Let’s break down each part of the flowchart:
+
+1. **Start**:
+   - The flowchart begins at the **Start** symbol, which indicates the starting point of the algorithm.
+
+2. **Get Time**:
+   - The first action is to **Get Time**. This step involves retrieving the current time, which will be compared to the alarm time.
+
+3. **Decision: Time = Alarm Time?**:
+   - This diamond-shaped symbol represents a decision point in the flowchart. The algorithm checks whether the current time matches the pre-set alarm time.
+   - If **Yes**, the flow proceeds to the next step to **Sound Alarm**.
+   - If **No**, the algorithm continues to the next step to **Wait 30 seconds** before checking the time again.
+
+4. **Wait 30 seconds**:
+   - If the current time does not match the alarm time, the algorithm waits for 30 seconds before looping back to check the time again.
+
+5. **Sound Alarm**:
+   - If the current time matches the alarm time, the **Sound Alarm** step is executed. This triggers the alarm to go off.
+
+6. **Stop**:
+   - After the alarm is sounded, the algorithm reaches the **Stop** symbol, indicating the end of the process.
+
+#### 🌟 How Flowcharts Aid in Understanding Algorithms
+
+- **Visualization**: Flowcharts provide a clear and easy-to-understand visualization of an algorithm, showing the sequence of steps and decision points.
+- **Communication**: They are an effective way to communicate the workings of a system or sub-system, especially to people who may not be familiar with the underlying code.
+- **Debugging**: Flowcharts can help in debugging by making it easier to see where errors might occur in the process.
+- **Planning**: They are also useful during the planning phase of a project, as they help in mapping out the process before any code is written.
+
 ###  Pseudocode 💻
 
 Here’s a simple pseudocode for the alarm app:
