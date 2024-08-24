@@ -97,28 +97,6 @@ This approach allows you to visualize how each part of the system will function,
 
 #### 🔍 Breakdown of the Alarm App Structure Diagram
 
-Let’s dive into the structure diagram for the **Alarm App**:
-
-1. **Alarm App**: 
-   - This is the top-level system, representing the entire alarm application on your smartphone.
-
-2. **Sub-systems**:
-   - **Set alarm**: This sub-system is responsible for all the tasks related to setting up an alarm.
-   - **Check time**: This sub-system continuously monitors the current time and checks it against any alarms that have been set.
-   - **Sound alarm**: This sub-system handles the actions that occur when the alarm goes off, such as playing a sound and offering options to snooze or stop the alarm.
-
-3. **Further Breakdown**:
-   - **Set alarm**: 
-     - **Set time**: Allows the user to choose the time for the alarm.
-     - **Turn alarm on/off**: Provides the functionality to activate or deactivate the alarm.
-   - **Check time**:
-     - **Play sound for two minutes**: If the current time matches the alarm time, a sound is played.
-   - **Sound alarm**:
-     - **Check off/snooze**: Offers the user the option to stop the alarm or snooze it.
-     - **Reset/clear alarm**: Resets or clears the alarm after it has been turned off or snoozed.
-
-#### 📝 Detailed Explanation
-
 - **Alarm App**: This is the main system that ties together all the functionalities of the alarm application.
 
 - **Set Alarm**:
