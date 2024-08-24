@@ -8,7 +8,7 @@
 4. **Wash the rice** in the water to clean it. 🧼
 5. **Put the rice** into the container. 🍚
 6. **Pour water** into the container with the rice. 💧
-7. **Check if the water level** is about 1 inch above the rice. If yes, move to the next step. If not, add more water until it’s at the right level. 📏
+7. **Check if the water level** is about 1 inch above the rice. If yes, move to the next step. If not, add more water until it’s at the right level 📏.
 8. **Turn on the stove** to start cooking the rice. 🔥
 9. **Check if the rice is boiled.** If yes, move to the next step. If not, continue heating. 🥄
 10. **Heat the container** until the rice is boiled. ♨️
