@@ -51,6 +51,8 @@ Solutions to problems need to be designed and developed rigorously. Formal metho
 
 A **structure diagram** is a hierarchical diagram that shows how a computer system solution is divided into sub-systems. Each level of the diagram gives a more detailed breakdown, making it easier to understand the system’s overall design. If necessary, each sub-system can be further divided into smaller sub-systems until the smallest functional units are identified.
 
+<img src="./images/basic-structure-diagram.PNG" alt="Basic Structure Diagram">
+
 #### 🔍 Breaking Down the Diagram
 
 Let’s take a closer look at the structure diagram example provided:
@@ -88,6 +90,62 @@ This approach allows you to visualize how each part of the system will function,
 - **Organization**: Breaks down complex systems into smaller, manageable parts.
 - **Communication**: Provides a clear, easy-to-understand diagram that can be shared with stakeholders and team members.
 - **Planning**: Assists in planning the development process by identifying the key components that need to be built.
+
+
+### ⏰ Alarm App Structure Diagram Example 
+<img src="./images/alarm-structure-diagram.PNG" alt="Alaram Structure Diagram">
+
+#### 🔍 Breakdown of the Alarm App Structure Diagram
+
+Let’s dive into the structure diagram for the **Alarm App**:
+
+1. **Alarm App**: 
+   - This is the top-level system, representing the entire alarm application on your smartphone.
+
+2. **Sub-systems**:
+   - **Set alarm**: This sub-system is responsible for all the tasks related to setting up an alarm.
+   - **Check time**: This sub-system continuously monitors the current time and checks it against any alarms that have been set.
+   - **Sound alarm**: This sub-system handles the actions that occur when the alarm goes off, such as playing a sound and offering options to snooze or stop the alarm.
+
+3. **Further Breakdown**:
+   - **Set alarm**: 
+     - **Set time**: Allows the user to choose the time for the alarm.
+     - **Turn alarm on/off**: Provides the functionality to activate or deactivate the alarm.
+   - **Check time**:
+     - **Play sound for two minutes**: If the current time matches the alarm time, a sound is played.
+   - **Sound alarm**:
+     - **Check off/snooze**: Offers the user the option to stop the alarm or snooze it.
+     - **Reset/clear alarm**: Resets or clears the alarm after it has been turned off or snoozed.
+
+#### 📝 Detailed Explanation
+
+- **Alarm App**: This is the main system that ties together all the functionalities of the alarm application.
+
+- **Set Alarm**:
+  - **Set time**: The user interacts with this sub-system to choose what time they want the alarm to go off.
+  - **Turn alarm on/off**: This allows the user to either activate the alarm or deactivate it if they no longer need it.
+
+- **Check Time**:
+  - **Play sound for two minutes**: This function is triggered when the system checks the current time and finds that it matches a set alarm time. The alarm sound is played for a duration of two minutes (or until the user intervenes).
+  
+- **Sound Alarm**:
+  - **Check off/snooze**: Once the alarm is ringing, this sub-system gives the user options to either turn off the alarm or snooze it for a few more minutes.
+  - **Reset/clear alarm**: After the alarm has been turned off, this sub-system clears the alarm settings or resets it if needed.
+
+#### 🌟 Why is the Structure Diagram Useful?
+
+- **Visualization**: It allows developers and users to easily visualize how the alarm app is structured, and understand how each part of the app contributes to its overall functionality.
+- **Modular Design**: By breaking down the system into smaller sub-systems, it becomes easier to manage, develop, and troubleshoot the app. Each sub-system can be developed and tested independently.
+- **Clarity**: This structure provides clarity in how different functionalities are divided and how they interact with each other.
+
+#### 🛠️ Activity 7.2: Further Breakdown of "Check Time"
+
+**Check Time** could be further divided into additional sub-systems:
+
+- **Check Current Time**: Continuously monitors the current time on the device.
+- **Match Time to Alarm**: Compares the current time to the times stored for active alarms.
+- **Trigger Alarm Sound**: Activates the alarm sound if the current time matches an alarm time.
+😊
 
 ###  Pseudocode 💻
 
